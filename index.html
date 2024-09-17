@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Codificación que arregla problemas con las tildes -->
+        <meta charset="UTF-8">
+        <!-- Permite adaptar la pantalla según su tamaño -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Permite a los buscadores encontrar una página en sus resultados -->
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <!-- Este es el título de la página (puede ser ventana o pestaña) -->
+        <title>Este texto es el título del documento</title>
+        <!-- Indica a nuestro HTML el archivo a utilizar para aplicar estilos -->
+        <link rel="stylesheet" href="CSS/misestilos.css">
+        <!-- favicon permite definir un ícono para la página -->
+    </head>
+    <body>
+        <!-- Contenedor de toda la página Web -->
+        <div id="agrupar">
+            <!-- Encabezado del contenedor -->
+            <header id="cabecera">
+                <h1>Este es el título principal del sitio Web</h1>
+            </header>
+            <!-- Menú principal -->
+            <nav id="menu">
+                <ul>
+                    <li> <a href="#">Principal</a></li>
+                    <li>Fotos
+                        <ul>
+                            <li> <a href="#">HTML5</a></li>
+                            <li> <a href="#">CSS3</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">Videos</a></li>
+                    <li> <a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- Objeto que contiene la información de la página -->
+            <section id="seccion">
+                <!-- Una información de la página -->
+                <article>
+                    <header>
+                        <!-- Agrupa elementos de tipo h1, h2, h3... -->
+                        <hgroup>
+                            <h1>Título del mensaje uno</h1>
+                            <h2>Subtítulo del mensaje uno</h2>
+                        </hgroup>
+                        <time datetime="2011-12-10" pubdate>Publicado el 10/12/2011
+                        </time>
+                    </header>
+                    Este es el texto de mi primer mensaje
+                    <!-- Elemento que agrupa las imágenes -->
+                    <figure>
+                        <img src="res/imagen1.png" alt="">
+                        <figcaption>Texto de la imagen del primer mensaje</figcaption>
+                    </figure>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+                 <!-- Una información de la página -->
+                 <article>
+                    <header>
+                        <!-- Agrupa elementos de tipo h1, h2, h3... -->
+                        <hgroup>
+                            <h1>Título del mensaje dos</h1>
+                            <h2>Subtítulo del mensaje dos</h2>
+                        </hgroup>
+                        <time datetime="2011-12-15" pubdate>Publicado el 15/12/2011
+                        </time>
+                    </header>
+                    Este es el texto de mi segundo mensaje
+                    <!-- Elemento que agrupa las imágenes -->
+                    <figure>
+                        <img src="res/imagen2.png" alt="">
+                        <figcaption>Texto de la imagen del segundo mensaje</figcaption>
+                    </figure>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+            </section>
+            <!-- Barra lateral con información adicional -->
+            <aside id="columna">
+                <blockquote>Mensaje número uno</blockquote>
+                <blockquote>Mensaje número dos</blockquote>
+            </aside>
+            <!-- Pie de la página Web. -->
+            <footer id="pie">
+                Derechos Reservados &copy; Informática Desarrollo Web 2024.
+            </footer>
+        </div>
+    </body>
+</html>
